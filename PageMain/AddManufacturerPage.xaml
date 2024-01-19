@@ -1,0 +1,19 @@
+﻿<Page x:Class="ZadohinParichmacher.PageMain.AddManufacturerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZadohinParichmacher.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="769" d:DesignWidth="994"
+      Title="AddManufacturerPage">
+
+    <Grid>
+        <Image Source="/Image/SK.png" Stretch="Fill"/>
+
+        <TextBlock FontSize="40" HorizontalAlignment="Left" Margin="98,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Введите производителя" Width="576"/>
+        <Button Name="AddManufacturerBtn" Content="Добавить" HorizontalAlignment="Left" Margin="443,368,0,0" VerticalAlignment="Top" Width="200" Height="46" Click="AddManufacturerBtn_Click"/>
+        <TextBox Name="ManufacturerTB" HorizontalAlignment="Left" Height="64" Margin="256,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="434"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,21 @@
+﻿<Page x:Class="ZadohinParichmacher.PageMain.OtchetWithTime"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZadohinParichmacher.PageMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="769" d:DesignWidth="994"
+      Title="OtchetWithTime">
+
+    <Grid>
+
+        <Image Source="/Image/SK.png" Stretch="Fill"/>
+        <DatePicker HorizontalAlignment="Left" Margin="294,86,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="659,86,0,0" VerticalAlignment="Top"/>
+        <DataGrid HorizontalAlignment="Left" Height="177" Margin="145,293,0,0" VerticalAlignment="Top" Width="743"/>
+        <TextBlock HorizontalAlignment="Left" Margin="106,81,0,0" TextWrapping="Wrap" Text="Начало периода" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="479,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"><Run Text="Конец "/><Run Text="периода"/></TextBlock>
+
+    </Grid>
+</Page>
