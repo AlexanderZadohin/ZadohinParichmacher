@@ -16,6 +16,7 @@
         <DataGrid HorizontalAlignment="Left" Height="177" Margin="145,293,0,0" VerticalAlignment="Top" Width="743"/>
         <TextBlock HorizontalAlignment="Left" Margin="106,81,0,0" TextWrapping="Wrap" Text="Начало периода" VerticalAlignment="Top" FontSize="22"/>
         <TextBlock HorizontalAlignment="Left" Margin="479,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"><Run Text="Конец "/><Run Text="периода"/></TextBlock>
+        <Button x:Name="CreateOtchetBtn" Content="Выбрать" HorizontalAlignment="Left" Margin="425,530,0,0" VerticalAlignment="Top" Width="123" Height="49" Click="CreateOtchetBtn_Click"/>
 
     </Grid>
 </Page>

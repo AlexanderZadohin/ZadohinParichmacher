@@ -31,7 +31,7 @@ namespace ZadohinParichmacher.PageMain
             string mes = "";
             if (ManufacturerTB.Text == "")
             {
-                mes = "Введите имя сотрудника";
+                mes = "Введите наименование производителя!";
                 MessageBox.Show(mes);
                 return;
             }

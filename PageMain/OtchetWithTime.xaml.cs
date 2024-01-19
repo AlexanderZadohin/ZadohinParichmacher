@@ -24,5 +24,10 @@ namespace ZadohinParichmacher.PageMain
         {
             InitializeComponent();
         }
+
+        private void CreateOtchetBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

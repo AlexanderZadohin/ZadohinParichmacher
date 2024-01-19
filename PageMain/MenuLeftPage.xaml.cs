@@ -57,7 +57,7 @@ namespace ZadohinParichmacher.PageMain
 
         private void OtchetWithTimeBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            ClassFrame.FrameBody.Navigate(new PageMain.OtchetWithTime());
         }
     }
 }
